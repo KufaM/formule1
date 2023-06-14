@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title-cyan {
+    color: cyan;
+}
+
+.title-red {
+    color: red;
+}
+
+.title-blue {
+    color: blue;
+}
+
+.title-green {
+    color: rgb(68, 161, 99);
+}
+
+.title-orange {
+    color: orange;
+}
+
+.title-bluepink {
+    color: rgb(218, 86, 230);
+}
+
+.title-darkblue {
+    color: rgb(48, 0, 124);
+}
+
+.title-pink {
+    color: rgb(185, 0, 62);
+}
+
+.title-lightblue {
+    color: rgb(28, 146, 182);
+}
