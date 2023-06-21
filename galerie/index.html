@@ -9,12 +9,17 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+     integrity="sha512-kwJUhJJaTDzGp6VTPBbMQWBFUof6+pv0SM3s8fo+E6XnPmVmtfwENK0vHYup3tsYnqHgRDoBDTJWoq7rnQw2+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"
+     integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
-<body>
+<body class="bg-dark">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light">
+        <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container">
               <a class="navbar-brand" href="../index.html">Formule 1</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -24,7 +29,7 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                   <li class="navbar-brand">
-                    <a class="navbar-brand" href="../galerie/index.html">Galerie</a>
+                    <a class="navbar-brand" href="../galerie/index.html">Gallery</a>
                   </li>
                   <li class="navbar-brand">
                       <a class="navbar-brand" href="../quiz2/index.html">DriversQuiz</a>
@@ -35,100 +40,111 @@
           </nav>
 </header>
 
-<main>
-    <h1 class="text-center pt-4">Názvy Tratí</h1>
-<div class="row text-center pb-5">
-    <div class="col-3">
-        <h2>Melbourne</h2>
-        <img src="../images/1.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Bahrain</h2>
-        <img src="../images/2.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Catalunya</h2>
-        <img src="../images/3.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Monaco</h2>
-        <img src="../images/4.jpg" style="width: 80%;" alt="track">
-    </div>
-</div>
-<div class="row text-center pb-5">
-    <div class="col-3">
-        <h2>Villeneuve</h2>
-        <img src="../images/5.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Baku</h2>
-        <img src="../images/6.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Red Bull Ring</h2>
-        <img src="../images/7.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Silverstone</h2>
-        <img src="../images/8.jpg" style="width: 80%;" alt="track">
-    </div>
-</div>
-<div class="row text-center pb-5">
-    <div class="col-3">
-        <h2>Hungaroring</h2>
-        <img src="../images/9.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Belgian GP</h2>
-        <img src="../images/10.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Monza</h2>
-        <img src="../images/11.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Singapore GP</h2>
-        <img src="../images/12.jpg" style="width: 80%;" alt="track">
-    </div>
-</div>
-<div class="row text-center pb-5">
-    <div class="col-3">
-        <h2>US GP</h2>
-        <img src="../images/13.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Suzuka</h2>
-        <img src="../images/14.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Mexican GP</h2>
-        <img src="../images/15.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Brazilian GP</h2>
-        <img src="../images/16.jpg" style="width: 80%;" alt="track">
-    </div>
-</div>
-<div class="row text-center pb-5">
-    <div class="col-3">
-        <h2>Abu Dhabi GP</h2>
-        <img src="../images/17.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Zandvoort</h2>
-        <img src="../images/18.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Jeddah</h2>
-        <img src="../images/22.jpg" style="width: 80%;" alt="track">
-    </div>
-    <div class="col-3">
-        <h2>Miami</h2>
-        <img src="../images/20.jpg" style="width: 80%;" alt="track">
-    </div>
-</div>
+<main class="text-light">
+    <h1 class="text-center pt-4 ">Circuit name</h1>
+<div class=" text-center pb-5 gallery">
+   
+        <a href="../images/1.jpg" data-lightbox="track"><img src="../images/1.jpg" style="width: 80%;" alt="track" >
+            <div class="name">
+            Melbourne
+        </div></a>
+    
+        <a href="../images/2.jpg" data-lightbox="track"><img src="../images/2.jpg" style="width: 80%;" alt="track" >
+            <div class="name">
+            Bahrain
+        </div></a>
+        <a href="../images/3.jpg" data-lightbox="track"><img src="../images/3.jpg" style="width: 80%;" alt="track" >
+            <div class="name">
+            Catalunya
+        </div></a>
+        <a href="../images/4.jpg" data-lightbox="track"><img src="../images/4.jpg" style="width: 80%;" alt="track" >
+            <div class="name">
+            Monaco
+        </div></a>
 
+
+   
+    <a href="../images/5.jpg" data-lightbox="track"><img src="../images/5.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Villeneuve
+    </div></a>
+
+    <a href="../images/6.jpg" data-lightbox="track"><img src="../images/6.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Baku
+    </div></a>
+    <a href="../images/7.jpg" data-lightbox="track"><img src="../images/7.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Red bull ring
+    </div></a>
+    <a href="../images/8.jpg" data-lightbox="track"><img src="../images/8.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Silverstone
+    </div></a>
+
+   
+    <a href="../images/9.jpg" data-lightbox="track"><img src="../images/9.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Hungaroring
+    </div></a>
+
+    <a href="../images/10.jpg" data-lightbox="track"><img src="../images/10.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            SPA
+    </div></a>
+    <a href="../images/11.jpg" data-lightbox="track"><img src="../images/11.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Monza
+    </div></a>
+    <a href="../images/12.jpg" data-lightbox="track"><img src="../images/12.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Singapore
+    </div></a>
+
+   
+    <a href="../images/13.jpg" data-lightbox="track"><img src="../images/13.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+       USA
+    </div></a>
+
+    <a href="../images/14.jpg" data-lightbox="track"><img src="../images/14.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Suzuka
+    </div></a>
+    <a href="../images/15.jpg" data-lightbox="track"><img src="../images/15.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Mexico
+    </div></a>
+    <a href="../images/16.jpg" data-lightbox="track"><img src="../images/16.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+        Interlagos
+    </div></a>
+
+
+   
+    <a href="../images/17.jpg" data-lightbox="track"><img src="../images/17.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+        Yas Marina
+    </div></a>
+
+    <a href="../images/18.jpg" data-lightbox="track"><img src="../images/18.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Zandvoort
+    </div></a>
+    <a href="../images/22.jpg" data-lightbox="track"><img src="../images/22.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+            Jeddah
+    </div></a>
+    <a href="../images/20.jpg" data-lightbox="track"><img src="../images/20.jpg" style="width: 80%;" alt="track" >
+        <div class="name">
+        Miami
+    </div></a>
+
+</div>
 </main>
+<script>
+    lightGallery(document.querySelector('.gallery'))
+</script>
 <footer class="text-center py-3">
     <div class="container">
         &copy; Kufa Marián 2023 IT1/P1

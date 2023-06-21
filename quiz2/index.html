@@ -16,8 +16,8 @@
 </head>
 
 
-<body>
-    <nav class="navbar navbar-expand-sm navbar-light">
+<body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-sm navbar-light navbar-dark">
         <div class="container">
           <a class="navbar-brand" href="../index.html">Formule 1</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -27,7 +27,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="navbar-brand">
-                <a class="navbar-brand" href="../galerie/index.html">Galerie</a>
+                <a class="navbar-brand" href="../galerie/index.html">Gallery</a>
               </li>
               <li class="navbar-brand">
                   <a class="navbar-brand" href="../quiz2/index.html">DriversQuiz</a>
@@ -38,45 +38,45 @@
       </nav>
 
   <main class = "container p-3">
-    <h1 class="text-center text-info">Drivers</h1>
+    <h1 class="text-center text-white pb-5">Drivers Quiz</h1>
     <form>
-        <p class="alert alert-warning">
+        <p class="p-3 bg-warning text-dark">
             Které čtyři roky za sebou vyhrál Sebastian Vettel světový šampionát?
         </p>
         <div class="row mb-3">
-          <label for="otazka1" class="col-sm-2 col-form-label">napiš rok x - y</label>
+          <label for="otazka1" class="col-sm-2 col-form-label">napiš rok x - rok y</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control"
-            placeholder="zadej sezóny, např. 1921-1924" >
+            <input type="text" class="form-control" id="inputEmail3"
+            placeholder="zadej sezónu" >
           </div>
         </div>
         <p class="alert alert-success collapse">spravana odpoved: <b>2010-2013</b></p>
         
-        <p class="alert alert-warning">Kdo říká slavný quote "Its hammertime"?</p>
+        <p class="p-3 bg-warning text-dark">Kdo říká slavný quote "Its hammertime"?</p>
         <div class="row mb-3">
-          <label for="otazka2" class="col-sm-2 col-form-label">Kdo říká slavný quote "Its hammertime"?</label>
+          <label for="otazka2" class="col-sm-2 col-form-label">Napiš jezdce</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" >
+            <input type="text" class="form-control" id="otazka2" >
           </div>
           <p class="alert alert-success collapse">spravana odpoved: <b>Lewis Hamilton</b></p>
         </div>
         <fieldset class="row mb-3">
-          <p class="alert alert-warning">spravana odpoved: <b>Kdo v součanosti výhrává světový šampionát?</b></p>
+          <p class="p-3 bg-warning text-dark">Kdo v současnosti vyhrává světový šampionát ?</p>
           <div class="col-sm-10">
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="otazka3" value="Lewis Hamilton" checked>
+              <input class="form-check-input" type="radio" name="otazka3" id="Lewis Hamilton" value="Lewis Hamilton" checked>
               <label class="form-check-label" for="Lewis Hamilton">
                 Lewis Hamilton
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="otazka3" value="Sergio Pérez">
+              <input class="form-check-input" type="radio" name="otazka3" id="Sergio Pérez" value="Sergio Pérez">
               <label class="form-check-label" for="Sergio Pérez">
                 Sergio Pérez
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="otazka3" value="Max Verstappen" >
+              <input class="form-check-input" type="radio" name="otazka3" id="Max Verstappen" value="Max Verstappen" >
               <label class="form-check-label" for="Max Verstappen">
                 Max Verstappen
               </label>
@@ -85,11 +85,12 @@
           </div>
         </fieldset>
         <div class="row mb-3">
-          <p class="alert alert-warning">Jakou maximální rychlost může Red Bull vytvořit ?</p>
+          <p class="p-3 bg-warning text-dark">Jakou maximální rychlost může Red Bull vytvořit ?</p>
          <div class="row mb-3">
            <label for="otazka1" class="col-sm-2 col-form-label">Zadej v kilometrech</label>
            <div class="col-sm-10">
-             <input type="text" class="form-control" placeholder="zadej počet km/h" >
+             <input type="text" class="form-control" id="inputEmail3"
+             placeholder="zadej počet km/h" >
            </div>
          </div>
          <p class="alert alert-success collapse">spravana odpoved: <b>360-365km/h</b></p>
